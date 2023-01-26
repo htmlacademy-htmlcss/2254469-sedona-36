@@ -2,11 +2,106 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>HTML Academy: Седона Каталог</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <header class="main-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <a href="main.html"><img src="#" alt="Логотип седоны"></a>
+          <p>
+            <li class="navigation-item">
+            <a class="navigation-link" href="#">Главная</a>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+      </p>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Поиск
+              </span>
+            </a>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Избранное
+              </span>
+            </a>
+          <li class="navigation-item">
+            <a class="button" href="#">ХОЧУ СЮДА!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-index">
+      <h1 class="visually-hidden">Седона</h1>
+      <img class="logo" src="#" alt="Логотип Седона.">
+      <section class="advantages">
+        <div class="intro-billboard">
+          <h2 class="info-board">Седона-небольшой городок в Аризоне,заслуживающий большего!</h2>
+          <p class="info-desc"><i>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</i></p>
+        </div>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+              <h2 class="advantages-board">Настоящий Городок</h2>
+              <p class="advantages-desc"><i>Седона — не аттракцион для туристов, там течёт своя жизнь</i></p>
+            <img class="advantages-image" src="#" alt="Фото ресторана">
+          </li>
+          <li class="advantages-item">
+              <h2 class="advantages-board">Небольшая площадь</h2>
+              <p class="advantages-desc"><i>Все достопримечательности находятся очень близко</i></p>
+          </li>
+          <li class="advantages-item">
+              <h2 class="advantages-board">Красивая дорога</h2>
+              <p class="advantages-desc"><i>Ехать в Седону из Лас-Вегаса совсем не скучно!</i></p>
+          </li>
+          <li class="advantages-item">
+              <h2 class="advantages-board">Мало туристов</h2>
+              <p class="advantages-desc"><i>Большинство едет в Гранд Каньон и толпится там</i></p>
+          </li>
+          <li class="advantages-item">
+              <h2 class="advantages-board">Там есть мост дьявола</h2>
+              <p class="advantages-desc"><i>Да, по нему можно пройти! Если вы осмелитесь, разумеется</i></p>
+            <img class="advantages-image" src="#" alt="Мост дьявола">
+          </li>
+        </ul>
+        <div class="intro-billboard">
+          <h2 class="info-board">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+          <p class="info-desc"><i>Опытный персонал и качественное обслуживание!</i></p>
+        </div>
+      </section>
+      <section class="bonus">
+        <ul class="advantages-bonus">
+          <li class="advantages-bonus">
+            <img class="advantages-image" src="#" alt="Гостиницы">
+            <h2 class="advantages-board">Жилье</h2>
+            <p class="advantages-desc"><i>Рекомендуем пожить в настоящем мотеле,
+              всё как в кино!</i></p>
+          </li>
+          <li class="advantages-bonus">
+            <img class="advantages-image" src="#" alt="Еда">
+            <h2 class="advantages-board">Еда</h2>
+            <p class="advantages-desc"><i>Всегда заказывайте
+              топовый фирменный бургер, вы не разочаруетесь!</i></p>
+          </li>
+          <li class="advantages-bonus">
+            <img class="advantages-image" src="#" alt="Сувениры">
+            <h2 class="advantages-board">Сувениры</h2>
+            <p class="advantages-desc"><i>Не только китайского,
+              но и настоящего местного производства!</i></p>
+          </li>
+        </ul>
+      </section>
+      <div class="intro-billboard">
+        <h2 class="info-board">Заинтересовались?</h2>
+        <p class="info-desc"><i>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</i></p>
+        <button type="button" class="button-search">Поиск гостиницы в Седоне</button>
+      </div>
+    </main>
   </body>
 </html>
