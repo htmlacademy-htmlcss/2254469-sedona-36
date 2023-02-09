@@ -27,13 +27,14 @@
   overflow: hidden;
 }
 
-.button {
+.button-submit-email {
+  width: 452px;
+  height: 52px;
   display: inline-block;
-  background-color: #756157;
+  background-color: #ffffff;
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 4px;
-  font-weight: 700;
 }
 
 li {
