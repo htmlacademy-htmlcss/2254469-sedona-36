@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: 0;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.button-submit-email {
+  width: 452px;
+  height: 52px;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 339px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  width: 268px;
+  margin-left: auto;
+
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-container {
+  flex: 1;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.serch {
+  background: url(../images/icon/loop.svg);
+  display: block;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.like {
+  background: url(../images/icon/heart.svg);
+  display: block;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding: 10px;
+
+}
+
+.button-brown {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #756157;
+  border: none;
+  border-radius: 4px;
+}
+
+.main-background {
+  display: block;
+  margin-top: 0;
+  background: url(../images/jpg/sedona-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.info-board {
+  margin-top: 150px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
+/* bonus */
+
+.bonus {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+/* Search */
+.search {
+  text-align: center;
+}
+
+.button-search {
+  background-color: #756157;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 700;
+  width: 376px;
+  height: 52px;
+  border: none;
+}
+
+/* subscribe */
+.back {
+  color: #ffffff;
+  text-align: center;
+  background-image: url(../images/png/subscribe-w.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-radius: 0px;
+  padding: 100px 5px;
+}
+
+.field {
+  width: 452px;
+  height: 52px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.button-submit {
+  width: 232px;
+  height: 52px;
+  margin-left: 0;
+  text-align: center;
+  margin: 8px 0;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+/*social*/
+
+.social-vk {
+  display: inline-block;
+  background-image: url(../images/icon/vk.svg);
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.social-telegram {
+  display: inline-block;
+  background-image: url(../images/icon/telegram.svg);
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.social-youtube {
+  display: inline-block;
+  background-image: url(../images/icon/youtube.svg);
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.number {
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*catalog*/
+
+.hotel-filter-header {
+  background-image: url(../images/png/filter.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #ffffff;
+}
+
+.hotel-filter-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.search-results-title {
+  color: #000000;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+/* что-то неработает*/
+.card-view {
+  background-image: url(../images/icon/table-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+.big-view {
+  background-image: url(../images/icon/table-icon-big.svg);
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+.list-view {
+  background-image: url(../images/icon/table-icon-list.svg);
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+/*hotel*/
+
+.search-result {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-view-card-item {
+  width: 340px;
+  height: 438;
+  padding: 20px;
+  border: #E6E6E6 solid 1px;
+}
+
+.search-card-hotel-link {
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.search-card-hotel-img {
+  display: block;
+  margin: 0 auto
+}
+
+.name-hottel {
+  width: 300px;
+  height: 28;
+  text-align: center;
+}
+
+.hottel {
+  width: 140px;
+  text-align: left;
+  color: #333333;
+}
+
+.price {
+  width: 140px;
+  text-align: left;
+  color: #333333;
+}
+
+.search-view-card-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hotels-info-bottom {
+  display: block;
+  background-color: #756157;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
+
+.favorites {
+  display: block;
+  background-color: #82B3D3;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
+.hotels-rating-star {
+  display: inline-block;
+  background-image: url(../images/svg/star.svg);
+  background-repeat: no-repeat;
+  height: 17px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.pagination a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 0;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  box-sizing: border-box;
+}
